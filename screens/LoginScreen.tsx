@@ -24,6 +24,7 @@ const LoginScreen = ({ navigation }: Props) => {
             placeholderTextColor="grey"
             value={email}
             onChangeText={(text) => setEmail(text)}
+            keyboardType="email-address"
           />
           <TextInput
             className="bg-white p-3 text-xl leading-6 rounded-lg"
