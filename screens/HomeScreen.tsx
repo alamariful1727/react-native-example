@@ -3,8 +3,8 @@ import React from 'react';
 
 const HomeScreen = () => {
   return (
-    <SafeAreaView>
-      <Text className="text-2xl text-center">Typhoon On Demand</Text>
+    <SafeAreaView className="bg-typDarkBlue flex-1 justify-center">
+      <Text className="text-2xl text-center text-white">Typhoon On Demand</Text>
     </SafeAreaView>
   );
 };
