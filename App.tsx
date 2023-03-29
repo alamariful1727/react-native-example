@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { KeyboardAvoidingView, Platform } from 'react-native';
-import HomeScreen from './screens/HomeScreen';
+import BrowseScreen from './screens/BrowseScreen';
 import LoginScreen from './screens/LoginScreen';
 import SplashScreen from './screens/SplashScreen';
 import { RootStackParamList } from './types';
@@ -23,7 +23,7 @@ export default function App() {
         <Stack.Navigator initialRouteName="Splash" screenOptions={screenOptions}>
           <Stack.Screen name="Splash" component={SplashScreen} />
           <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="Browse" component={BrowseScreen} />
         </Stack.Navigator>
       </KeyboardAvoidingView>
     </NavigationContainer>

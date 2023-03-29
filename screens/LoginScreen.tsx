@@ -10,7 +10,7 @@ const LoginScreen = ({ navigation }: Props) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    navigation.replace('Home');
+    navigation.replace('Browse');
   };
 
   return (

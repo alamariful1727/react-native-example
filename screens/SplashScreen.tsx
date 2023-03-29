@@ -10,7 +10,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Splash'>;
 const SplashScreen = ({ navigation }: Props) => {
   useEffect(() => {
     if (isAuth) {
-      navigation.replace('Home');
+      navigation.replace('Browse');
     } else {
       navigation.replace('Login');
     }
