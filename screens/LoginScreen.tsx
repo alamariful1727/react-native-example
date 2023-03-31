@@ -35,7 +35,7 @@ const LoginScreen = ({ navigation }: Props) => {
             onChangeText={(text) => setPassword(text)}
           />
         </View>
-        <TouchableOpacity className="bg-typGreen w-24 py-2 items-center rounded-full" onPress={handleLogin}>
+        <TouchableOpacity className="ml-auto bg-typGreen w-24 py-2 items-center rounded-full" onPress={handleLogin}>
           <Text className="text-2xl">Log In</Text>
         </TouchableOpacity>
       </View>
